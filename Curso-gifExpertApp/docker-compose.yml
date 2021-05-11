@@ -1,0 +1,11 @@
+version: '3.7'
+
+services:
+
+  sample-prod:
+    container_name: seed-dev-app4
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - '1337:80'

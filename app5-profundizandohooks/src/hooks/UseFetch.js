@@ -18,7 +18,7 @@ const UseFetch = (url) => {
         })
     }, [url])
 
-    console.log(icos);
+    return icos;
 
 }
 
